@@ -12,5 +12,5 @@ To configure the pipeline add the following lines to settings.py
 AWS_ACCESS_KEY = '<your_access_key>'
 AWS_SECRET_KEY = '<your_secret_key>'
 AWS_REGION = '<your_aws_region>'
-SQS_QUEUE_NAME = ['<your_sqs_queue_name>']
+SQS_QUEUE_NAMES = ['<your_sqs_queue_name>']
 ```
