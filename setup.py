@@ -3,7 +3,8 @@ from setuptools import setup, find_packages
 version = '0.1'
 
 REQUIREMENTS = [
-    'boto'
+    'boto',
+    'scrapy'
 ]
 
 setup(

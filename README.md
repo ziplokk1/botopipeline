@@ -17,4 +17,9 @@ SQS_QUEUE_NAMES = ['<your_sqs_queue_name>']
 ITEM_PIPELINES = {
     'sqspipeline.BotoPipeline': 300
 }
+
+# Optional
+# Default = False
+# Raise CloseSpider exception if there are still items in the queue
+RAISE_IF_QUEUE_NOT_EMPTY = True
 ```
