@@ -13,4 +13,8 @@ AWS_ACCESS_KEY = '<your_access_key>'
 AWS_SECRET_KEY = '<your_secret_key>'
 AWS_REGION = '<your_aws_region>'
 SQS_QUEUE_NAMES = ['<your_sqs_queue_name>']
+
+ITEM_PIPELINES = {
+    'sqspipeline.BotoPipeline': 300
+}
 ```
