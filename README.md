@@ -23,3 +23,6 @@ ITEM_PIPELINES = {
 # Raise CloseSpider exception if there are still items in the queue
 RAISE_IF_QUEUE_NOT_EMPTY = True
 ```
+
+## Installation
+`pip install scrapy-sqs-pipeline`
